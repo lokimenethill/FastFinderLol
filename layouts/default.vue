@@ -6,7 +6,7 @@
       </v-container>
     </v-main>
     <v-footer :absolute="!fixed" app>
-      <span>{{ new Date().getFullYear() }} Creado por Lokimenethill</span>
+      <span>{{ new Date().getFullYear() }} Creado por Lokimenethill  <a href="https://github.com/lokimenethill/FastFinderLol">GitHub del Proyecto</a></span>
     </v-footer>
   </v-app>
 </template>
