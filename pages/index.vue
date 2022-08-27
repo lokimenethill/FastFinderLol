@@ -1,6 +1,6 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col >
+    <v-col>
       <title-top></title-top>
       <field-box></field-box>
       <footer-cards-ad></footer-cards-ad>
@@ -13,7 +13,7 @@ import FieldBox from '../components/FieldBox.vue'
 import titleTop from '../components/titleTop.vue'
 import footerCardsAd from '../components/footerCardsAd.vue'
 export default {
-  components:{FieldBox,titleTop,footerCardsAd},
+  components: { FieldBox, titleTop, footerCardsAd },
   name: 'IndexPage',
 }
 </script>
